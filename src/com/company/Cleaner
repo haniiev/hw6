@@ -1,0 +1,13 @@
+package com.company;
+
+public class Cleaner extends Staff {
+    @Override
+    public static void print() {
+        System.out.println("I am ");
+    }
+
+    @Override
+    public static void salary() {
+        System.out.println("100");
+    }
+}

@@ -1,0 +1,17 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Student student1 = new Student();
+        student1.print();
+
+        Cleaner cleaner1 = new Cleaner();
+        cleaner1.print();
+        cleaner1.salary();
+
+        Teacher teacher1 = new Teacher();
+        teacher1.print();
+        teacher1.salary();
+    }
+}
